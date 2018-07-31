@@ -1,7 +1,7 @@
 /** @format */
 
 import {AppRegistry} from 'react-native';
-import FlexBoxContainer from './App/Containers/1.FlexBox/FlexBoxContainer';
+import EmailAndPassContainer from './App/Containers/2.EmailAndPass/EmailAndPassContainer'
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => FlexBoxContainer);
+AppRegistry.registerComponent(appName, () => EmailAndPassContainer);
