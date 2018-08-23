@@ -3,22 +3,26 @@ import {Platform, StyleSheet, Text, View} from 'react-native';
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      marginTop: 20,
-      flexDirection: 'column'
+      flexDirection: 'column',
+      backgroundColor: '#1D2115',
+      justifyContent: 'center',
+      alignItems: 'center'
     },
     backgroundImage: {
       flex: 1,
       width: null,
-      padding: 20,
+      padding: 35,
+      paddingBottom:50,
       justifyContent: 'center',
       alignItems: 'center'
     },
     imageLogo:{
-      height: 200,
-      width: 200
+      height: 150,
+      width: 150,
+      marginBottom: 60
     },
     email: {
-      backgroundColor: '#1D2115',
+      backgroundColor: '#C6A45D',
       opacity: 0.8,
       color: 'white',
       alignSelf:'stretch',
@@ -34,6 +38,15 @@ const styles = StyleSheet.create({
       padding: 10,
       fontSize: 22
     },
+    buttonSignIn: {
+      flex: 1,
+      padding: 15,
+      alignItems: 'center',
+      backgroundColor: '#C6A45D'
+    },
+    textLogin:{
+      fontSize: 22
+    }
 });
 
 export default {
